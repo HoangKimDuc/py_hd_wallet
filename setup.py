@@ -33,13 +33,9 @@ setuptools.setup(
         'hashprint==1.0.1',
         'pysha3==1.0.2',
         'pycoin==0.80',
-        'c-seed-phrases-for-stellar',
+        'seed-phrases-for-stellar @ git+https://github.com/HoangKimDuc/seed-phrases-for-stellar.git#egg=seed-phrases-for-stellar-2.0',
         'toml==0.10.0'
-    ],
-    
-     dependency_links=[
-        # Make sure to include the `#egg` portion so the `install_requires` recognizes the package
-        'git+https://github.com/HoangKimDuc/seed-phrases-for-stellar#egg=c-seed-phrases-for-stellar'
     ]
-
+    
+      
 )
