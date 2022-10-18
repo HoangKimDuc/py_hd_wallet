@@ -25,9 +25,9 @@ setuptools.setup(
     url="https://github.com/nthtson/py_hd_wallet",
 
     install_requires=[
-        'pywallet==0.1.0',
-        'pycoin==0.80',
-        'mnemonic==0.18',
+        'pywallet>=0.1.0',
+        'pycoin>=0.80',
+        'mnemonic>=0.18',
         'pysha3==1.0.2',
         'pycryptodome==3.8.2',
         'hashprint==1.0.1',
